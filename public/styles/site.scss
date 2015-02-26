@@ -1,8 +1,10 @@
-@import 'susy';
+
 @import 'breakpoint';
 
 // utils
 @import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/extends';
 
 // core
 @import 'core/normalize';

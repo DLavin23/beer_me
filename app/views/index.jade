@@ -1,6 +1,14 @@
 extends layout
 
 block content
+  header.header-primary
+    div.logo
+      img(src="http://placehold.it/150x100")
+    div.nav
+      ul
+        li:a:input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
+
+
   form(data-ng-submit="submit(beer)")
     input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
     button(type="submit" name="submit")

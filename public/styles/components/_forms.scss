@@ -1,5 +1,5 @@
 form {
-  @include container;
+
   background: $color-blue;
   padding: $unit;
 
@@ -9,13 +9,13 @@ form {
   }
 
   input[type='search'] {
-    @include span(9);
+
     background: $color-blue-dark;
     color: $color-white;
   }
 
   button[type='submit'] {
-    @include span(3 last);
+
   }
 }
 

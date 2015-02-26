@@ -38,7 +38,7 @@ gulp.task('styles', function() {
   ];
   return plugins.rubySass(
   './public/styles/', {
-    require: ['breakpoint', 'susy'],
+    require: ['breakpoint'],
     sourcemap: true,
     style: 'compressed'
   })
